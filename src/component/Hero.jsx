@@ -25,8 +25,7 @@ const Hero = () => {
 
     gsap.to("#cta", {
       opacity: 1,
-      delay: 2.5,
-      stagger: 2.5,
+      delay: 2,
       y: -50,
       ease: "power1.inOut"
     })
